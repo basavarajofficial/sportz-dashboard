@@ -1,6 +1,6 @@
 import { eq } from 'drizzle-orm';
-import { db, pool } from './index.js';
 import { matches, commentary, matchStatusEnum } from './schema.js';
+import { db, pool } from './db.js';
 
 async function main() {
   try {
